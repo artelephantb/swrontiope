@@ -5,6 +5,7 @@
 		"color": "blue",
 		"bold": true
 	},
+	
 	"columns": 1,
 	"dialogs": "#swrontiope:help"
 }
