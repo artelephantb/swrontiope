@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"pack_format": 63,
+		"description": [
+			{
+				"text":"Adds new staffs to ",
+				"color":"gold"
+			},
+			{
+				"text":"Minecraft",
+				"bold": true
+			}
+		]
+	}
+}
