@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"useing_item": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": "wooden_sword",
+					"predicates": {
+						"custom_data": "{staff:true}"
+					}
+				}
+			}
+		}
+	},
+
+	"rewards": {
+		"function": "swrontiope:staff/powtensia/use/check"
+	}
+}
