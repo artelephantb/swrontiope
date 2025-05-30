@@ -6,7 +6,9 @@
 				"item": {
 					"items": "wooden_sword",
 					"predicates": {
-						"custom_data": "{staff:true}"
+						"custom_data": {
+							"swrontiope.staff": true
+						}
 					}
 				}
 			}
@@ -14,6 +16,6 @@
 	},
 
 	"rewards": {
-		"function": "swrontiope:staff/powtensia/use/check"
+		"function": "swrontiope:staff/check"
 	}
 }

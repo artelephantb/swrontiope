@@ -6,7 +6,10 @@
 				"item": {
 					"items": "cooked_beef",
 					"components": {
-						"item_model": "swrontiope:guide_book"
+						"custom_data": {
+							"swrontiope.guide": true,
+							"type": "swrontiope"
+						}
 					}
 				}
 			}
