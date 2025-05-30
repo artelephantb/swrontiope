@@ -1,0 +1,33 @@
+{
+	"type": "dialog_list",
+	
+	"pause": false,
+
+	"title": {
+		"text": "Swrontiope Guide Book",
+		"color": "blue",
+		"bold": true
+	},
+	"external_title": {
+		"text": "Table of Contents"
+	},
+
+	"body": {
+		"type": "plain_message",
+		"contents": {
+			"text": "Table of Contents",
+			"bold": true
+		}
+	},
+	
+	"columns": 1,
+	"dialogs": "#swrontiope:guide_book",
+	"exit_action": {
+		"label": "< Back",
+
+		"action": {
+			"type": "show_dialog",
+			"dialog": "swrontiope:guide/about"
+		}
+	}
+}

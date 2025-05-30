@@ -1,5 +1,6 @@
 {
 	"type": "dialog_list",
+	
 	"title": {
 		"text": "Swrontiope",
 		"color": "blue",
@@ -7,5 +8,9 @@
 	},
 	
 	"columns": 1,
-	"dialogs": "#swrontiope:help"
+	"dialogs": "#swrontiope:help",
+	
+	"exit_action": {
+		"label": "< Exit"
+	}
 }

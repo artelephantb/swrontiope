@@ -1,0 +1,56 @@
+{
+	"type": "multi_action",
+
+	"title": {
+		"text": "Swrontiope Guide Book",
+		"color": "blue",
+		"bold": true
+	},
+	"external_title": {
+		"text": "About"
+	},
+
+	"pause": false,
+
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "About",
+				"bold": true
+			}
+		},
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "Welcome to the Swrontiope Guide Book! This guide book will help you understand how to use this datapack.",
+				"color": "aqua"
+			},
+			"width": 357
+		}
+	],
+	
+	"columns": 2,
+	"actions": [
+		{
+			"label": "< Exit"
+		},
+		{
+			"label": "Next >",
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/1"
+			}
+		},
+		{
+			"label": {
+				"text": "Table of Contents",
+				"italic": true
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/contents"
+			}
+		}
+	]
+}

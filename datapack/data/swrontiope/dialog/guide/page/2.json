@@ -1,0 +1,71 @@
+{
+	"type": "multi_action",
+	"title": {
+		"text": "Swrontiope Guide Book",
+		"color": "blue",
+		"bold": true
+	},
+	"external_title": {
+		"text": "2.Test"
+	},
+	
+	"pause": false,
+
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "Test",
+				"bold": true
+			}
+		},
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "This is a test page."
+			}
+		},
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "Page 2",
+				"italic": true
+			}
+		}
+	],
+	
+	"columns": 2,
+	"actions": [
+		{
+			"label": "< Back",
+
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/1"
+			}
+		},
+		{
+			"label": "Next >",
+
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/3"
+			}
+		},
+		{
+			"label": {
+				"text": "Table of Contents",
+				"italic": true
+			},
+			
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/contents"
+			}
+		}
+	],
+	
+	"exit_action": {
+		"label": "< Exit"
+	}
+}

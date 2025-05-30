@@ -1,0 +1,23 @@
+{
+	"type": "notice",
+
+	"title": {
+		"text": "Craft Guide Book",
+		"bold": true
+	},
+	"external_title": "Craft Guide Book",
+
+	"body": {
+		"type": "plain_message",
+		"contents": "This is how the guide book can be crafted."
+	},
+	
+	"action": {
+		"label": "< Back",
+
+		"action": {
+			"type": "show_dialog",
+			"dialog": "swrontiope:help"
+		}
+	}
+}

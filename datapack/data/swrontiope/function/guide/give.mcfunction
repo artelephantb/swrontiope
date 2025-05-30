@@ -1,0 +1,1 @@
+give @s cooked_beef[item_model="swrontiope:guide_book", item_name="Swrontiope Guide Book", minecraft:consumable={consume_seconds:100000}]

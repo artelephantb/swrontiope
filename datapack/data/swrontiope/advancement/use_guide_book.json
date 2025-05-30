@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"useing_item": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": "cooked_beef",
+					"components": {
+						"item_model": "swrontiope:guide_book"
+					}
+				}
+			}
+		}
+	},
+
+	"rewards": {
+		"function": "swrontiope:guide/use"
+	}
+}
