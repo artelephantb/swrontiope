@@ -4,4 +4,4 @@ execute if items entity @s weapon.offhand cod run function swrontiope:staff/powt
 execute unless items entity @s weapon.offhand * run function swrontiope:staff/powtensia/use/abilities/none
 
 # Shows invalid message
-execute if entity @s[advancements={swrontiope:use_powtensia_staff=true}] run title @s actionbar {text: "Invalid item selected", color: "red"}
+execute if entity @s[advancements={swrontiope:use_staff=true}] run title @s actionbar {text: "Invalid item selected", color: "red"}

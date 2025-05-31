@@ -1,0 +1,1 @@
+give @s wooden_sword[item_name="STAFF", item_model="acacia_boat", custom_data={"swrontiope.staff": true, "type": "powtensia"}, consumable={consume_seconds:100000}]
