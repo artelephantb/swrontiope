@@ -17,7 +17,7 @@
 
 		"fallback": {
 			"type": "model",
-			"model": "swrontiope:item/powtensia_staff_normal"
+			"model": "swrontiope:item/powtensia_staff"
 		},
 		
 		"property": "display_context"
