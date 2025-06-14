@@ -2,8 +2,13 @@
 	"type": "dialog_list",
 	
 	"title": {
+		"text": "Swrontiope Datapack",
+		"color": "yellow",
+		"bold": true
+	},
+	"external_title": {
 		"text": "Swrontiope",
-		"color": "blue",
+		"color": "yellow",
 		"bold": true
 	},
 	

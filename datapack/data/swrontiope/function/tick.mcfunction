@@ -11,7 +11,7 @@ clear @a paper[item_model='swrontiope:filled_slot',custom_data={filled_slot:true
 # Move projectiles
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s run tp @s ^ ^ ^-1
 
-# Check surface
+## Check surface
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity @a[distance=..100] run kill @s
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity @s[tag=projectile.ghost.block] unless block ~ ~ ~ air run function swrontiope:staff/powtensia/use/abilities/projectiles/block
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity @s[tag=projectile.ghost.entity] if entity @n[type=!item_display, distance=..2] run function swrontiope:staff/powtensia/use/abilities/projectiles/entity
