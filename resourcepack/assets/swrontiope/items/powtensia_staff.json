@@ -1,0 +1,25 @@
+{
+	"model": {
+		"type": "select",
+		"cases": [
+			{
+				"when": [
+					"gui",
+					"ground",
+					"fixed"
+				],
+				"model": {
+					"type": "model",
+					"model": "swrontiope:item/powtensia_staff_item"
+				}
+			}
+		],
+
+		"fallback": {
+			"type": "model",
+			"model": "swrontiope:item/powtensia_staff_normal"
+		},
+		
+		"property": "display_context"
+	}
+}
