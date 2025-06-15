@@ -1,0 +1,1 @@
+execute if entity @s[tag=destroyer] run function destroy:abilities/projectiles/destroyer/block

@@ -1,0 +1,16 @@
+{
+	"pack": {
+		"description": [
+			{
+				"text": "Adds a block that destroys all other blocks!",
+				"color": "yellow"
+			},
+			{
+				"text": "(Swrontiope Requierd)",
+				"color": "gold",
+				"italic": true
+			}
+		],
+		"pack_format": 79
+	}
+}
