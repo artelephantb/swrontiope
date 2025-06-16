@@ -1,4 +1,4 @@
 # Swrontiope
 
 ## Notice
-*Mojang is not affiliated with this.*
+*Mojang is not affiliated with this project*
