@@ -1,1 +1,0 @@
-scoreboard players add powtensia.abilities swrontiope.counts.sum 1

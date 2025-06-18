@@ -3,5 +3,5 @@ execute at @n[type=item_display, tag=swrontiope.projectile, tag=cod] run tp @n[t
 
 execute if entity @s[gamemode=!creative] run item modify entity @s weapon.offhand {function: 'set_count', add: true, count: -1}
 
-scoreboard players set @s powtensia_staff_cooldown 3
+scoreboard players set @s powtensia_staff_cooldown 0
 advancement revoke @s only swrontiope:use_staff
