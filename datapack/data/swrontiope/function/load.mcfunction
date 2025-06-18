@@ -10,5 +10,8 @@ scoreboard players set @a powtensia_staff_cooldown 0
 scoreboard objectives add guide_book_cooldown dummy
 scoreboard players set @a guide_book_cooldown 0
 
+# Create workbench crafting
+scoreboard objectives add swrontiope.block.workbench.change dummy
+
 
 scoreboard objectives add barrel_change dummy

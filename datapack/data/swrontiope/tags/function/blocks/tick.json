@@ -1,6 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"swrontiope:tick"
+		"swrontiope.blocks:tick_block"
 	]
 }
