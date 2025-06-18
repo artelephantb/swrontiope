@@ -1,0 +1,1 @@
+execute as @s[tag=swrontiope.block, tag=workbench] run function swrontiope.blocks:blocks/workbench/tick

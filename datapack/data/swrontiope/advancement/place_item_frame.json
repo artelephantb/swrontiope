@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "item_used_on_block",
+
+			"conditions": {
+				"location": [
+					{
+						"condition": "match_tool",
+						"predicate": {
+							"items": [
+								"item_frame"
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+
+	"rewards": {
+		"function": "swrontiope:place_item_frame"
+	}
+}

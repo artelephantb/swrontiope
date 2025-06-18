@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"swrontiope:tick"
+		"swrontiope:tick",
+		"swrontiope.crafting:tick"
 	]
 }

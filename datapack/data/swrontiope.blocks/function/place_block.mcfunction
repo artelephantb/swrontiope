@@ -1,0 +1,3 @@
+execute as @s[tag=workbench] run function swrontiope.blocks:blocks/workbench/place
+
+kill @s
