@@ -1,12 +1,12 @@
 {
 	"parent": "block/cube",
 	"textures": {
-		"particle": "staff:block/workbench_bottom",
-		"up": "staff:block/workbench_top",
-		"down": "staff:block/workbench_bottom",
-		"north": "staff:block/workbench_front",
-		"east": "staff:block/workbench_side",
-		"south": "staff:block/workbench_front",
-		"west": "staff:block/workbench_side"
+		"particle": "swrontiope:block/workbench_bottom",
+		"up": "swrontiope:block/workbench_top",
+		"down": "swrontiope:block/workbench_bottom",
+		"north": "swrontiope:block/workbench_front",
+		"east": "swrontiope:block/workbench_side",
+		"south": "swrontiope:block/workbench_front",
+		"west": "swrontiope:block/workbench_side"
 	}
 }
