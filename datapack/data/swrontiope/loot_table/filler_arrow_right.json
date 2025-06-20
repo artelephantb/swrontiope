@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "poisonous_potato",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"text": "Slot Filler",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "Swrontiope Datapack",
+										"color": "yellow",
+										"italic": true
+									}
+								],
+								"item_model": "swrontiope:filler_arrow_right",
+								"rarity": "epic",
+								
+								"max_stack_size": 1,
+
+								"!consumable": {},
+
+								"custom_data": {
+									"swrontiope.item": true,
+									"swrontiope.item.name": "filler_arrow_right"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
