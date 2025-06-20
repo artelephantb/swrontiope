@@ -1,6 +1,6 @@
 # Handle cooldowns
-execute as @a[scores={powtensia_staff_cooldown=1..}] run function swrontiope:staff/powtensia/cooldown
-execute as @a[scores={guide_book_cooldown=1..}] run scoreboard players remove @a guide_book_cooldown 1
+execute as @a[scores={swrontiope.powtensia_staff.cooldown=1..}] run function swrontiope:staff/powtensia/cooldown
+execute as @a[scores={swrontiope.guide_book.cooldown=1..}] run scoreboard players remove @a swrontiope.guide_book.cooldown 1
 
 # Handle custom blocks
 execute as @e[tag=swrontiope.block] at @s run function #swrontiope:blocks/tick

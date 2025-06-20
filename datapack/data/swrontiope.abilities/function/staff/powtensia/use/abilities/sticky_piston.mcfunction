@@ -7,5 +7,5 @@ tp @s ~ ~-0.1 ~
 
 playsound block.piston.contract block @a
 
-scoreboard players set @s powtensia_staff_cooldown 30
+scoreboard players set @s swrontiope.powtensia_staff.cooldown 30
 advancement revoke @s only swrontiope:use_staff

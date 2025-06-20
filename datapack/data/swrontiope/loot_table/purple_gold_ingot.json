@@ -5,13 +5,13 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "item_frame",
+					"name": "poisonous_potato",
 					"functions": [
 						{
 							"function": "set_components",
 							"components": {
 								"item_name": {
-									"text": "Workbench",
+									"text": "Purple Gold Ingot",
 									"italic": false
 								},
 								"lore": [
@@ -21,23 +21,13 @@
 										"italic": true
 									}
 								],
-								"item_model": "swrontiope:workbench",
+								"item_model": "swrontiope:purple_gold_ingot",
 
-								"entity_data": {
-									"id": "item_frame",
-									"Tags": [
-										"swrontiope.placement_block",
-										"workbench"
-									],
-									"Facing": 1,
-									"Invulnerable": true,
-									"Invisible": true,
-									"Fixed": true
-								},
-								
+								"!consumable": {},
+
 								"custom_data": {
 									"swrontiope.item": true,
-									"swrontiope.item.name": "workbench"
+									"swrontiope.item.name": "purple_gold_ingot"
 								}
 							}
 						}

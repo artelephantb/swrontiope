@@ -4,9 +4,10 @@
 			"trigger": "using_item",
 			"conditions": {
 				"item": {
-					"items": "wooden_sword",
+					"items": "poisonous_potato",
 					"predicates": {
 						"custom_data": {
+							"swrontiope.item": true,
 							"swrontiope.staff": true
 						}
 					}

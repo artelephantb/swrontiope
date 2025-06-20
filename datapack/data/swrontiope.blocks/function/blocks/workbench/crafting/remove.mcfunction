@@ -1,3 +1,5 @@
+playsound block.grindstone.use block @a ~ ~ ~
+
 item modify block ~ ~ ~ container.1 {function: set_count, add: true, count: -1}
 item modify block ~ ~ ~ container.2 {function: set_count, add: true, count: -1}
 item modify block ~ ~ ~ container.3 {function: set_count, add: true, count: -1}

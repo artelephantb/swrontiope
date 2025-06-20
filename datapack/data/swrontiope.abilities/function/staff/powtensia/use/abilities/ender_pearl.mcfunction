@@ -3,5 +3,5 @@ execute at @n[type=item_display, tag=swrontiope.projectile, tag=ender_pearl] run
 
 tag @s add swrontiope.projectile.user.ender_pearl
 
-scoreboard players set @s powtensia_staff_cooldown 15
+scoreboard players set @s swrontiope.powtensia_staff.cooldown 15
 advancement revoke @s only swrontiope:use_staff

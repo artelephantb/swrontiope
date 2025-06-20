@@ -1,0 +1,55 @@
+{
+	"type": "crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"#*#",
+		"-0-",
+		"---"
+	],
+	"key": {
+		"0": [
+			"iron_nugget"
+		],
+		"-": "#planks",
+		"#": [
+			"blackstone"
+		],
+		"*": [
+			"blue_dye"
+		]
+	},
+	"result": {
+		"id": "poisonous_potato",
+		"components": {
+			"item_name": {
+				"text": "Workbench",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Swrontiope Datapack",
+					"color": "yellow",
+					"italic": true
+				}
+			],
+			"item_model": "swrontiope:workbench",
+
+			"entity_data": {
+				"id": "item_frame",
+				"Tags": [
+					"swrontiope.placement_block",
+					"workbench"
+				],
+				"Facing": 1,
+				"Invulnerable": true,
+				"Invisible": true,
+				"Fixed": true
+			},
+			
+			"custom_data": {
+				"swrontiope.item": true,
+				"swrontiope.item.name": "workbench"
+			}
+		}
+	}
+}

@@ -10,7 +10,13 @@
 						"predicate": {
 							"items": [
 								"item_frame"
-							]
+							],
+							"components": {
+								"custom_data": {
+									"swrontiope.item": true,
+									"swrontiope.item.name": "workbench"
+								}
+							}
 						}
 					}
 				]

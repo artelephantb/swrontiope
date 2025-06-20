@@ -4,11 +4,11 @@
 			"trigger": "using_item",
 			"conditions": {
 				"item": {
-					"items": "cooked_beef",
+					"items": "poisonous_potato",
 					"components": {
 						"custom_data": {
-							"swrontiope.guide": true,
-							"type": "swrontiope"
+							"swrontiope.item": true,
+							"swrontiope.item.name": "guide_book"
 						}
 					}
 				}
