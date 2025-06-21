@@ -6,7 +6,7 @@ execute as @a[scores={swrontiope.guide_book.cooldown=1..}] run scoreboard player
 execute as @e[tag=swrontiope.block] at @s run function #swrontiope:blocks/tick
 
 # Remove unwanted items
-clear @a paper[item_model='swrontiope:filled_slot',custom_data={filled_slot:true}]
+clear @a poisonous_potato[custom_data={'swrontiope.item': true, 'swrontiope.item.name': 'filler'}]
 
 #### Projectiles ####
 # Tick
