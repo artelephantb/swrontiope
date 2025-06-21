@@ -1,0 +1,18 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "swrontiope:recipe/none.png",
+			"ascent": 75,
+			"height": 75,
+			"chars": ["\uA000"]
+		},
+		{
+			"type": "bitmap",
+			"file": "swrontiope:recipe/guide_book.png",
+			"ascent": 75,
+			"height": 75,
+			"chars": ["\uA001"]
+		}
+	]
+}

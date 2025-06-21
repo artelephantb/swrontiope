@@ -2,15 +2,63 @@
 	"type": "notice",
 
 	"title": {
-		"text": "Craft Guide Book",
+		"text": "The Guide Book",
 		"bold": true
 	},
-	"external_title": "Craft Guide Book",
+	"external_title": "The Guide Book",
 
-	"body": {
-		"type": "plain_message",
-		"contents": "This is how the guide book can be crafted. (Not finished)"
-	},
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": [
+				{
+					"text": "The guide book is great for finding out how to craft and understand new items and blocks. The guide book is able to be crafted from the recipe below in a ",
+					"color": "white"
+				},
+				{
+					"text": "Crafting Table",
+					"color": "gold",
+					"bold": true
+				}
+			]
+		},
+		{
+			"type": "plain_message",
+			"contents": ""
+		},
+		{
+			"type": "plain_message",
+			"contents": ""
+		},
+		{
+			"type": "plain_message",
+			"contents": ""
+		},
+		{
+			"type": "plain_message",
+			"contents": ""
+		},
+		{
+			"type": "plain_message",
+			"contents": ""
+		},
+		{
+			"type": "plain_message",
+			"contents": ""
+		},
+		{
+			"type": "plain_message",
+			"contents": ""
+		},
+		{
+			"type": "plain_message",
+			"contents": {
+				"font": "swrontiope:recipe",
+				"text": "\uA001",
+				"shadow_color": 0
+			}
+		}
+	],
 	
 	"action": {
 		"label": "< Back",

@@ -9,6 +9,9 @@ execute as @e[tag=swrontiope.block] at @s run function #swrontiope:blocks/tick
 clear @a poisonous_potato[custom_data={'swrontiope.item': true, 'swrontiope.item.name': 'filler'}]
 clear @a poisonous_potato[custom_data={'swrontiope.item': true, 'swrontiope.item.name': 'filler_arrow_right'}]
 
+execute as @e[type=item] if data entity @s Item{components: {'minecraft:custom_data': {swrontiope.item: true, swrontiope.item.name: 'filler'}}} run kill @s
+execute as @e[type=item] if data entity @s Item{components: {'minecraft:custom_data': {swrontiope.item: true, swrontiope.item.name: 'filler_arrow_right'}}} run kill @s
+
 #### Projectiles ####
 # Tick
 function #swrontiope:powtensia/projectiles/tick
