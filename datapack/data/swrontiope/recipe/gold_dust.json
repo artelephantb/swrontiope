@@ -1,0 +1,29 @@
+{
+	"type": "stonecutting",
+	"ingredient": "gold_ingot",
+	"result": {
+		"id": "poisonous_potato",
+		"components": {
+			"item_name": {
+				"text": "Gold Dust",
+				"italic": false
+			},
+			"lore": [
+				{
+					"text": "Swrontiope Datapack",
+					"color": "yellow",
+					"italic": true
+				}
+			],
+			"item_model": "swrontiope:gold_dust",
+
+			"!consumable": {},
+
+			"custom_data": {
+				"swrontiope.item": true,
+				"swrontiope.item.name": "gold_dust"
+			}
+		},
+		"count": 2
+	}
+}
