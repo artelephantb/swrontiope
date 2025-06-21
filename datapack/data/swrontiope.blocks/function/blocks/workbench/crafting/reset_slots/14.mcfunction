@@ -1,0 +1,3 @@
+execute unless items block ~ ~ ~ container.14 * run loot replace block ~ ~ ~ container.14 loot swrontiope:filler_arrow_right
+execute unless items block ~ ~ ~ container.14 poisonous_potato[custom_data={'swrontiope.item': true, 'swrontiope.item.name': 'filler_arrow_right'}] run item replace entity @n[type=player] player.cursor from block ~ ~ ~ container.14
+execute unless items block ~ ~ ~ container.14 poisonous_potato[custom_data={'swrontiope.item': true, 'swrontiope.item.name': 'filler_arrow_right'}] run loot replace block ~ ~ ~ container.14 loot swrontiope:filler_arrow_right

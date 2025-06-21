@@ -7,6 +7,7 @@ execute as @e[tag=swrontiope.block] at @s run function #swrontiope:blocks/tick
 
 # Remove unwanted items
 clear @a poisonous_potato[custom_data={'swrontiope.item': true, 'swrontiope.item.name': 'filler'}]
+clear @a poisonous_potato[custom_data={'swrontiope.item': true, 'swrontiope.item.name': 'filler_arrow_right'}]
 
 #### Projectiles ####
 # Tick
