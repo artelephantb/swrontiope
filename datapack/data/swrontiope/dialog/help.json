@@ -2,14 +2,12 @@
 	"type": "dialog_list",
 	
 	"title": {
-		"text": "Swrontiope Datapack",
-		"color": "yellow",
-		"bold": true
+		"text": "\uA001",
+		"font": "swrontiope:title"
 	},
 	"external_title": {
-		"text": "Swrontiope",
-		"color": "yellow",
-		"bold": true
+		"text": "\uA001",
+		"font": "swrontiope:title"
 	},
 	
 	"columns": 1,

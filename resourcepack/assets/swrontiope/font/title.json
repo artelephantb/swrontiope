@@ -1,0 +1,18 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "swrontiope:title/full.png",
+			"ascent": 25,
+			"height": 25,
+			"chars": ["\uA000"]
+		},
+		{
+			"type": "bitmap",
+			"file": "swrontiope:title/text.png",
+			"ascent": 8,
+			"height": 10,
+			"chars": ["\uA001"]
+		}
+	]
+}
