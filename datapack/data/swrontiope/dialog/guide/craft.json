@@ -19,44 +19,16 @@
 					"text": "Crafting Table",
 					"color": "gold",
 					"bold": true
+				},
+				{
+					"text": "\n\n\n\n\n\n\n\n\n"
+				},
+				{
+					"text": "\uA001",
+					"font": "swrontiope:recipe",
+					"shadow_color": 0
 				}
 			]
-		},
-		{
-			"type": "plain_message",
-			"contents": ""
-		},
-		{
-			"type": "plain_message",
-			"contents": ""
-		},
-		{
-			"type": "plain_message",
-			"contents": ""
-		},
-		{
-			"type": "plain_message",
-			"contents": ""
-		},
-		{
-			"type": "plain_message",
-			"contents": ""
-		},
-		{
-			"type": "plain_message",
-			"contents": ""
-		},
-		{
-			"type": "plain_message",
-			"contents": ""
-		},
-		{
-			"type": "plain_message",
-			"contents": {
-				"font": "swrontiope:recipe",
-				"text": "\uA001",
-				"shadow_color": 0
-			}
 		}
 	],
 	

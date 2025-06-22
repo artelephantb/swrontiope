@@ -7,7 +7,7 @@
 		"bold": true
 	},
 	"external_title": {
-		"text": "3.Workbench Recipe"
+		"text": "4.test"
 	},
 	
 	"pause": false,
@@ -16,7 +16,7 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "Crafting the Workbench",
+				"text": "test",
 				"bold": true
 			}
 		},
@@ -50,16 +50,11 @@
 
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/2"
+				"dialog": "swrontiope:guide/page/3"
 			}
 		},
 		{
-			"label": "Next >",
-
-			"action": {
-				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/4"
-			}
+			"label": "Exit >"
 		},
 		{
 			"label": {

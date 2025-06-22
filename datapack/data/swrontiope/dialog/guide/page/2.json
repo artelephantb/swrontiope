@@ -1,12 +1,13 @@
 {
 	"type": "multi_action",
+
 	"title": {
 		"text": "Swrontiope Guide Book",
 		"color": "blue",
 		"bold": true
 	},
 	"external_title": {
-		"text": "2.Test"
+		"text": "2.Workbench"
 	},
 	
 	"pause": false,
@@ -15,15 +16,33 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "Test",
+				"text": "About the Workbench",
 				"bold": true
 			}
 		},
 		{
 			"type": "plain_message",
-			"contents": {
-				"text": "This is a test page."
-			}
+			"contents": [
+				{
+					"text": "The workbench can be used to craft powerful items. The main item to craft is the "
+				},
+				{
+					"text": "Powtensia Staff",
+					"color": "aqua"
+				},
+				{
+					"text": ". You can craft this item using the recipe on the next page in a "
+				},
+				{
+					"text": "Crafting Table",
+					"color": "gold",
+					"bold": true
+				},
+				{
+					"text": ". This recipe needs 5 planks of any kind, 2 blocks of blackstone, a iron nugget, and a single blue dye."
+				}
+			],
+			"width": 357
 		},
 		{
 			"type": "plain_message",
