@@ -9,6 +9,12 @@
 		"text": "\uA001",
 		"font": "swrontiope:title"
 	},
+	"body": {
+		"type": "plain_message",
+		"contents": {
+			"text": "More information soon!"
+		}
+	},
 	
 	"columns": 1,
 	"dialogs": "#swrontiope:help",

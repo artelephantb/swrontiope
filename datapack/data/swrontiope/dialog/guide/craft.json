@@ -2,12 +2,19 @@
 	"type": "notice",
 
 	"title": {
-		"text": "The Guide Book",
-		"bold": true
+		"text": "\uA001",
+		"font": "swrontiope:title"
 	},
 	"external_title": "The Guide Book",
 
 	"body": [
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "The Guide Book",
+				"bold": true
+			}
+		},
 		{
 			"type": "plain_message",
 			"contents": [

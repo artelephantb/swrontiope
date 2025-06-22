@@ -3,11 +3,18 @@
 	
 	"pause": false,
 
-	"title": {
-		"text": "Swrontiope Guide Book",
-		"color": "blue",
-		"bold": true
-	},
+	"title": [
+		{
+			"text": "\uA001",
+			"font": "swrontiope:title"
+		},
+		{
+			"text": " Guide Book",
+			"font": "default",
+			"color": "blue",
+			"bold": true
+		}
+	],
 	"external_title": {
 		"text": "Table of Contents"
 	},
