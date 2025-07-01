@@ -1,19 +1,38 @@
 {
 	"type": "dialog_list",
 	
-	"title": {
-		"text": "\uA001",
-		"font": "swrontiope:title"
-	},
+	"title": [
+		{
+			"text": "\uA001",
+			"font": "swrontiope:title"
+		},
+		{
+			"text": " | ",
+			"font": "minecraft:default"
+		},
+		{
+			"text": "Help",
+			"color": "blue",
+			"font": "minecraft:default"
+		}
+		
+	],
 	"external_title": {
 		"text": "\uA001",
 		"font": "swrontiope:title"
 	},
 	"body": {
 		"type": "plain_message",
-		"contents": {
-			"text": "More information soon!"
-		}
+		"contents": [
+			{
+				"text": "Includes some help for using "
+			},
+			{
+				"text": "Swrontiope",
+				"color": "blue",
+				"bold": true
+			}
+		]
 	},
 	
 	"columns": 1,
