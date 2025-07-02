@@ -9,6 +9,10 @@
 			"font": "swrontiope:title"
 		},
 		{
+			"text": " | ",
+			"font": "minecraft:default"
+		},
+		{
 			"text": " Guide Book",
 			"font": "default",
 			"color": "blue",

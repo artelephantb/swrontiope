@@ -1,10 +1,21 @@
 {
 	"type": "notice",
 
-	"title": {
-		"text": "\uA001",
-		"font": "swrontiope:title"
-	},
+	"title": [
+		{
+			"text": "\uA001",
+			"font": "swrontiope:title"
+		},
+		{
+			"text": " | ",
+			"font": "minecraft:default"
+		},
+		{
+			"text": "Help",
+			"color": "blue",
+			"font": "minecraft:default"
+		}
+	],
 	"external_title": "The Guide Book",
 
 	"body": [
