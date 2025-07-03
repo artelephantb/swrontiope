@@ -18,7 +18,7 @@
 		}
 	],
 	"external_title": {
-		"text": "2.Workbench"
+		"text": "2.Gold Dust"
 	},
 	
 	"pause": false,
@@ -27,7 +27,7 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "About the Workbench",
+				"text": "About Gold Dust",
 				"bold": true
 			}
 		},
@@ -35,22 +35,51 @@
 			"type": "plain_message",
 			"contents": [
 				{
-					"text": "The workbench can be used to craft powerful items. The main item to craft is the "
+					"text": "A "
 				},
 				{
-					"text": "Powtensia Staff",
-					"color": "aqua"
+					"text": "powdery",
+					"bold": true
 				},
 				{
-					"text": ". You can craft this item using the recipe on the next page in a "
+					"text": " substance of gold, mainly to create "
 				},
 				{
-					"text": "Crafting Table",
+					"text": "purple gold ingots",
+					"color": "light_purple"
+				},
+				{
+					"text": "! In a "
+				},
+				{
+					"text": "stone cutter",
 					"color": "gold",
 					"bold": true
 				},
 				{
-					"text": ". This recipe needs 5 planks of any kind, 2 blocks of blackstone, a iron nugget, and a single blue dye."
+					"text": ", a "
+				},
+				{
+					"text": "single",
+					"italic": true
+				},
+				{
+					"text": " gold ingot can be grinned down into "
+				},
+				{
+					"text": "2",
+					"bold": true
+				},
+				{
+					"text": " pieces of gold dust."
+				},
+				{
+					"text": "\n\n\n\n\n\n\n\n\n"
+				},
+				{
+					"text": "\uA003",
+					"font": "swrontiope:recipe",
+					"shadow_color": 0
 				}
 			],
 			"width": 357

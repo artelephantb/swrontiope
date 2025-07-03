@@ -27,7 +27,7 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "Book Navagation",
+				"text": "Navagation",
 				"bold": true
 			}
 		},
@@ -56,14 +56,21 @@
 					"italic": true
 				},
 				{
-					"text": " will cause their respective actions. A "
+					"text": " will cause the pages to flip forward or backward a page. A "
 				},
 				{
 					"text": "exit button",
 					"bold": true
 				},
 				{
-					"text": " will only show on the first and last pages, exiting the book when pressed. (Another exit button can be found at the bottom of each page) The last notable button is the "
+					"text": " can be seen on the first and last pages, replacing a next or back button; and another "
+				},
+				{
+					"text": "exit button",
+					"bold": true
+				},
+				{
+					"text": " can be found at the bottom of other pages. The last notable button is the "
 				},
 				{
 					"text": "Table of Contents",
@@ -91,7 +98,7 @@
 
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/about"
+				"dialog": "swrontiope:guide/page/about"
 			}
 		},
 		{

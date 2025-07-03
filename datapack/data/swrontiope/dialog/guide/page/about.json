@@ -59,7 +59,7 @@
 			"label": "Next >",
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/1"
+				"dialog": "swrontiope:guide/page/navagation"
 			}
 		},
 		{

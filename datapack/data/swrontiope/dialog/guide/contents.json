@@ -38,7 +38,7 @@
 
 		"action": {
 			"type": "show_dialog",
-			"dialog": "swrontiope:guide/about"
+			"dialog": "swrontiope:guide/page/about"
 		}
 	}
 }

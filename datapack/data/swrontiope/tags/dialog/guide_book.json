@@ -1,8 +1,9 @@
 {
 	"values": [
-		"swrontiope:guide/about",
-		"swrontiope:guide/page/1",
+		"swrontiope:guide/page/about",
+		"swrontiope:guide/page/navagation",
 		"swrontiope:guide/page/2",
+		"swrontiope:guide/page/about_gold_dust",
 		"swrontiope:guide/page/3",
 		"swrontiope:guide/page/4",
 		"swrontiope:guide/contents"
