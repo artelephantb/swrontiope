@@ -33,9 +33,46 @@
 		},
 		{
 			"type": "plain_message",
-			"contents": {
-				"text": "You are able to go back a page by pressing the '< Back' button or go forward a page by pressing the 'Next >' button. On the first and last page there will be a 'Exit' button. This will exit the guide book. Pressing the escape key or the 'Cancel' button on other pages will go back to this Information page. Pressing back again will exit the book."
-			},
+			"contents": [
+				{
+					"text": "Navigating the guide book can be used by pressing only a few "
+				},
+				{
+					"text": "buttons",
+					"bold": true
+				},
+				{
+					"text": "! Pressing "
+				},
+				{
+					"text": "back",
+					"italic": true
+				},
+				{
+					"text": " or "
+				},
+				{
+					"text": "next",
+					"italic": true
+				},
+				{
+					"text": " will cause their respective actions. A "
+				},
+				{
+					"text": "exit button",
+					"bold": true
+				},
+				{
+					"text": " will only show on the first and last pages, exiting the book when pressed. (Another exit button can be found at the bottom of each page) The last notable button is the "
+				},
+				{
+					"text": "Table of Contents",
+					"bold": true
+				},
+				{
+					"text": ", showing a list of all pages from the book."
+				}
+			],
 			"width": 357
 		},
 		{

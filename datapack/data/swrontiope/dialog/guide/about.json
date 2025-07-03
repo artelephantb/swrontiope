@@ -33,10 +33,19 @@
 		},
 		{
 			"type": "plain_message",
-			"contents": {
-				"text": "Welcome to the Swrontiope Guide Book! This guide book will help you understand how to use this datapack.",
-				"color": "aqua"
-			},
+			"contents": [
+				{
+					"text": "This book comes with knowledge within every page. A detailed book like this is able to explain and help you craft many items, blocks, and abilities found in this ",
+					"color": "aqua"
+				},
+				{
+					"text": "datapack",
+					"bold": true
+				},
+				{
+					"text": "! Ready to explore?"
+				}
+			],
 			"width": 357
 		}
 	],
