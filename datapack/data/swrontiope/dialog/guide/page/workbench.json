@@ -18,7 +18,7 @@
 		}
 	],
 	"external_title": {
-		"text": "2.Workbench"
+		"text": "Workbench"
 	},
 	
 	"pause": false,
@@ -27,7 +27,7 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "About the Workbench",
+				"text": "Workbench",
 				"bold": true
 			}
 		},
@@ -35,32 +35,47 @@
 			"type": "plain_message",
 			"contents": [
 				{
-					"text": "The workbench can be used to craft powerful items. The main item to craft is the "
+					"text": "Craft many things with a workbench, including the "
 				},
 				{
-					"text": "Powtensia Staff",
+					"text": "powtensia staff",
 					"color": "aqua"
 				},
 				{
-					"text": ". You can craft this item using the recipe on the next page in a "
+					"text": "! You are able to craft this by using "
 				},
 				{
-					"text": "Crafting Table",
+					"text": "2",
+					"bold": true
+				},
+				{
+					"text": " blocks of blackstone, a piece of blue dye, an iron nugget, and "
+				},
+				{
+					"text": "5",
+					"bold": true
+				},
+				{
+					"text": " blocks of any planks. All inside a "
+				},
+				{
+					"text": "crafting table",
 					"color": "gold",
 					"bold": true
 				},
 				{
-					"text": ". This recipe needs 5 planks of any kind, 2 blocks of blackstone, a iron nugget, and a single blue dye."
+					"text": "!"
+				},
+				{
+					"text": "\n\n\n\n\n\n\n\n\n"
+				},
+				{
+					"text": "\uA001",
+					"font": "swrontiope:recipe",
+					"shadow_color": 0
 				}
 			],
 			"width": 357
-		},
-		{
-			"type": "plain_message",
-			"contents": {
-				"text": "Page 2",
-				"italic": true
-			}
 		}
 	],
 	
@@ -79,7 +94,7 @@
 
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/3"
+				"dialog": "swrontiope:guide/page/gold_dust"
 			}
 		},
 		{

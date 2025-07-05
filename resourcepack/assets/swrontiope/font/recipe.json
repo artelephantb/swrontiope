@@ -2,45 +2,38 @@
 	"providers": [
 		{
 			"type": "bitmap",
-			"file": "swrontiope:recipe/none.png",
+			"file": "swrontiope:recipe/guide_book.png",
 			"ascent": 75,
 			"height": 75,
 			"chars": ["\uA000"]
 		},
 		{
 			"type": "bitmap",
-			"file": "swrontiope:recipe/guide_book.png",
+			"file": "swrontiope:recipe/workbench.png",
 			"ascent": 75,
 			"height": 75,
 			"chars": ["\uA001"]
 		},
 		{
 			"type": "bitmap",
-			"file": "swrontiope:recipe/workbench.png",
-			"ascent": 75,
-			"height": 75,
-			"chars": ["\uA002"]
-		},
-		{
-			"type": "bitmap",
 			"file": "swrontiope:recipe/gold_dust.png",
-			"ascent": 75,
-			"height": 75,
-			"chars": ["\uA003"]
+			"ascent": 35,
+			"height": 35,
+			"chars": ["\uA002"]
 		},
 		{
 			"type": "bitmap",
 			"file": "swrontiope:recipe/purple_gold_ingot.png",
 			"ascent": 75,
 			"height": 75,
-			"chars": ["\uA004"]
+			"chars": ["\uA003"]
 		},
 		{
 			"type": "bitmap",
 			"file": "swrontiope:recipe/powtensia_staff.png",
 			"ascent": 75,
 			"height": 75,
-			"chars": ["\uA005"]
+			"chars": ["\uA004"]
 		}
 	]
 }

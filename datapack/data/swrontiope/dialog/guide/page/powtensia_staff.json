@@ -18,7 +18,7 @@
 		}
 	],
 	"external_title": {
-		"text": "Navagation"
+		"text": "Powtensia Staff"
 	},
 	
 	"pause": false,
@@ -27,7 +27,7 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "Navagation",
+				"text": "Powtensia Staff",
 				"bold": true
 			}
 		},
@@ -35,49 +35,58 @@
 			"type": "plain_message",
 			"contents": [
 				{
-					"text": "Navigating the guide book can be used by pressing a few "
+					"text": "A powerful tool, using many items from the game! This is a core part of this "
 				},
 				{
-					"text": "buttons",
+					"text": "datapack",
 					"bold": true
 				},
 				{
-					"text": "! Pressing "
+					"text": ", giving the player new powers based on the items they obtained! A ability can be activated by pressing or holding the "
 				},
 				{
-					"text": "next",
+					"text": "right mouse button",
 					"italic": true
 				},
 				{
-					"text": " or "
+					"text": " with the "
 				},
 				{
-					"text": "back",
+					"text": "powtensia staff",
+					"color": "aqua"
+				},
+				{
+					"text": " firmly gripped in your "
+				},
+				{
+					"text": "mainhand",
 					"italic": true
 				},
 				{
-					"text": " will cause the pages to flip forward or backward. A "
+					"text": ". To craft this, you will need "
 				},
 				{
-					"text": "exit button",
+					"text": "6",
 					"bold": true
 				},
 				{
-					"text": " can be seen on the first and last pages, replacing a next or back button; another "
+					"text": " purple gold ingots, and a nether star put together in a "
 				},
 				{
-					"text": "exit button",
+					"text": "workbench",
+					"color": "gold",
 					"bold": true
 				},
 				{
-					"text": " can be found at the bottom of each other page. The last notable button is the "
+					"text": "!"
 				},
 				{
-					"text": "Table of Contents",
-					"bold": true
+					"text": "\n\n\n\n\n\n\n\n\n"
 				},
 				{
-					"text": ", showing a list of all the pages from the book."
+					"text": "\uA004",
+					"font": "swrontiope:recipe",
+					"shadow_color": 0
 				}
 			],
 			"width": 357
@@ -91,16 +100,11 @@
 
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/about"
+				"dialog": "swrontiope:guide/page/purple_gold_ingot"
 			}
 		},
 		{
-			"label": "Next >",
-
-			"action": {
-				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/workbench"
-			}
+			"label": "Exit >"
 		},
 		{
 			"label": {

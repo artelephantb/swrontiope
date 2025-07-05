@@ -18,7 +18,7 @@
 		}
 	],
 	"external_title": {
-		"text": "4.test"
+		"text": "Purple Gold Ingot"
 	},
 	
 	"pause": false,
@@ -27,7 +27,7 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "test",
+				"text": "Purple Gold Ingot",
 				"bold": true
 			}
 		},
@@ -35,22 +35,40 @@
 			"type": "plain_message",
 			"contents": [
 				{
-					"text": "\n\n\n\n\n\n\n"
+					"text": "A shiny purple ingot of gold combined with "
 				},
 				{
-					"text": "\uA002",
+					"text": "4",
+					"bold": true
+				},
+				{
+					"text": " iron nuggets and amethyst shards; and a single gold dust combined all inside a "
+				},
+				{
+					"text": "workbench",
+					"color": "gold",
+					"bold": true
+				},
+				{
+					"text": "! This gold is used as a handle for the "
+				},
+				{
+					"text": "powtensia staff",
+					"color": "aqua"
+				},
+				{
+					"text": "."
+				},
+				{
+					"text": "\n\n\n\n\n\n\n\n\n"
+				},
+				{
+					"text": "\uA003",
 					"font": "swrontiope:recipe",
 					"shadow_color": 0
 				}
 			],
 			"width": 357
-		},
-		{
-			"type": "plain_message",
-			"contents": {
-				"text": "Page 3",
-				"italic": true
-			}
 		}
 	],
 	
@@ -61,11 +79,16 @@
 
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/3"
+				"dialog": "swrontiope:guide/page/gold_dust"
 			}
 		},
 		{
-			"label": "Exit >"
+			"label": "Next >",
+
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/powtensia_staff"
+			}
 		},
 		{
 			"label": {

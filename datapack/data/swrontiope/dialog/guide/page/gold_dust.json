@@ -18,7 +18,7 @@
 		}
 	],
 	"external_title": {
-		"text": "2.Gold Dust"
+		"text": "Gold Dust"
 	},
 	
 	"pause": false,
@@ -27,7 +27,7 @@
 		{
 			"type": "plain_message",
 			"contents": {
-				"text": "About Gold Dust",
+				"text": "Gold Dust",
 				"bold": true
 			}
 		},
@@ -74,22 +74,15 @@
 					"text": " pieces of gold dust."
 				},
 				{
-					"text": "\n\n\n\n\n\n\n\n\n"
+					"text": "\n\n\n\n\n"
 				},
 				{
-					"text": "\uA003",
+					"text": "\uA002",
 					"font": "swrontiope:recipe",
 					"shadow_color": 0
 				}
 			],
 			"width": 357
-		},
-		{
-			"type": "plain_message",
-			"contents": {
-				"text": "Page 2",
-				"italic": true
-			}
 		}
 	],
 	
@@ -100,7 +93,7 @@
 
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/navagation"
+				"dialog": "swrontiope:guide/page/workbench"
 			}
 		},
 		{
@@ -108,7 +101,7 @@
 
 			"action": {
 				"type": "show_dialog",
-				"dialog": "swrontiope:guide/page/3"
+				"dialog": "swrontiope:guide/page/purple_gold_ingot"
 			}
 		},
 		{
