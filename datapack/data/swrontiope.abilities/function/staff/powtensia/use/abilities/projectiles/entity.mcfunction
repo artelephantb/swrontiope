@@ -5,3 +5,4 @@ execute if entity @s[tag=ender_pearl] run function swrontiope.abilities:staff/po
 execute if entity @s[tag=egg] run function swrontiope.abilities:staff/powtensia/use/abilities/projectiles/egg/entity
 execute if entity @s[tag=lantern] run function swrontiope.abilities:staff/powtensia/use/abilities/projectiles/lantern/entity
 execute if entity @s[tag=soul_lantern] run function swrontiope.abilities:staff/powtensia/use/abilities/projectiles/soul_lantern/entity
+execute if entity @s[tag=bone_meal] run function swrontiope.abilities:staff/powtensia/use/abilities/projectiles/bone_meal/entity

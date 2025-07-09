@@ -13,5 +13,9 @@ scoreboard players set @a swrontiope.guide_book.cooldown 0
 # Create workbench crafting
 scoreboard objectives add swrontiope.block.workbench.change dummy
 
+# Create settings
+scoreboard objectives add swrontiope.settings dummy
+scoreboard players set default_abilities swrontiope.settings 0
+
 # Show load info
 schedule function swrontiope:load_info 5t
