@@ -30,6 +30,14 @@ execute if items entity @s weapon.offhand soul_lantern run return run function s
 
 # Plant
 execute if items entity @s weapon.offhand bone_meal run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/bone_meal
+execute if items entity @s weapon.offhand oak_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/oak_sapling
+execute if items entity @s weapon.offhand spruce_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/spruce_sapling
+execute if items entity @s weapon.offhand birch_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/birch_sapling
+execute if items entity @s weapon.offhand jungle_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/jungle_sapling
+execute if items entity @s weapon.offhand acacia_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/acacia_sapling
+execute if items entity @s weapon.offhand dark_oak_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/dark_oak_sapling
+execute if items entity @s weapon.offhand cherry_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/cherry_sapling
+execute if items entity @s weapon.offhand pale_oak_sapling run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/plant/pale_oak_sapling
 
 # Disc
 execute if items entity @s weapon.offhand music_disc_11 run return run function swrontiope.abilities:staff/powtensia/use/abilities/use/music_disc/11

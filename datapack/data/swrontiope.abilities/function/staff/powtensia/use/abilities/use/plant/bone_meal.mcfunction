@@ -3,5 +3,5 @@ execute at @n[type=item_display, tag=swrontiope.projectile, tag=bone_meal] run t
 
 execute if entity @s[gamemode=!creative] run item modify entity @s weapon.offhand {function: 'set_count', add: true, count: -1}
 
-scoreboard players set @s swrontiope.powtensia_staff.cooldown 6
+scoreboard players set @s swrontiope.powtensia_staff.cooldown 10
 advancement revoke @s only swrontiope:use_staff
