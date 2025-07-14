@@ -1,0 +1,70 @@
+{
+	"type": "multi_action",
+
+	"title": [
+		{
+			"text": "\uA001",
+			"font": "swrontiope:title"
+		},
+		{
+			"text": " | ",
+			"font": "minecraft:default"
+		},
+		{
+			"text": " Guide Book",
+			"font": "default",
+			"color": "blue",
+			"bold": true
+		}
+	],
+	"external_title": {
+		"text": "Music Disc"
+	},
+	
+	"pause": false,
+
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "Music Disc",
+				"bold": true
+			}
+		},
+		{
+			"type": "plain_message",
+			"contents": [
+				{
+					"text": "Plays the selected music!"
+				}
+			],
+			"width": 357
+		}
+	],
+	
+	"columns": 2,
+	"actions": [
+		{
+			"label": "< Back",
+
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/abilities/sapling"
+			}
+		},
+		{
+			"label": "Exit >"
+		},
+		{
+			"label": {
+				"text": "Table of Contents",
+				"italic": true
+			},
+			
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/contents"
+			}
+		}
+	]
+}

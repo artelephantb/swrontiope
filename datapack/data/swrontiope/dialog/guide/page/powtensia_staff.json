@@ -104,7 +104,11 @@
 			}
 		},
 		{
-			"label": "Exit >"
+			"label": "Next >",
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/abilities/healing_potion"
+			}
 		},
 		{
 			"label": {

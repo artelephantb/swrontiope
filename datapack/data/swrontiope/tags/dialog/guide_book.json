@@ -5,6 +5,20 @@
 		"swrontiope:guide/page/workbench",
 		"swrontiope:guide/page/gold_dust",
 		"swrontiope:guide/page/purple_gold_ingot",
-		"swrontiope:guide/page/powtensia_staff"
+		"swrontiope:guide/page/powtensia_staff",
+
+		"swrontiope:guide/page/abilities/healing_potion",
+		"swrontiope:guide/page/abilities/cod",
+		"swrontiope:guide/page/abilities/slime_ball",
+		"swrontiope:guide/page/abilities/ender_pearl",
+		"swrontiope:guide/page/abilities/piston",
+		"swrontiope:guide/page/abilities/sticky_piston",
+		"swrontiope:guide/page/abilities/apple",
+		"swrontiope:guide/page/abilities/egg",
+		"swrontiope:guide/page/abilities/lantern",
+		"swrontiope:guide/page/abilities/soul_lantern",
+		"swrontiope:guide/page/abilities/bone_meal",
+		"swrontiope:guide/page/abilities/sapling",
+		"swrontiope:guide/page/abilities/music_disc"
 	]
 }

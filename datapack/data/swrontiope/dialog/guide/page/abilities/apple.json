@@ -1,0 +1,79 @@
+{
+	"type": "multi_action",
+
+	"title": [
+		{
+			"text": "\uA001",
+			"font": "swrontiope:title"
+		},
+		{
+			"text": " | ",
+			"font": "minecraft:default"
+		},
+		{
+			"text": " Guide Book",
+			"font": "default",
+			"color": "blue",
+			"bold": true
+		}
+	],
+	"external_title": {
+		"text": "Apple"
+	},
+	
+	"pause": false,
+
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": {
+				"text": "Apple",
+				"bold": true
+			}
+		},
+		{
+			"type": "plain_message",
+			"contents": [
+				{
+					"text": "Gives a golden apple to the player."
+				}
+			],
+			"width": 357
+		}
+	],
+	
+	"columns": 2,
+	"actions": [
+		{
+			"label": "< Back",
+
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/abilities/sticky_piston"
+			}
+		},
+		{
+			"label": "Next >",
+
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/page/abilities/egg"
+			}
+		},
+		{
+			"label": {
+				"text": "Table of Contents",
+				"italic": true
+			},
+			
+			"action": {
+				"type": "show_dialog",
+				"dialog": "swrontiope:guide/contents"
+			}
+		}
+	],
+	
+	"exit_action": {
+		"label": "< Exit"
+	}
+}
