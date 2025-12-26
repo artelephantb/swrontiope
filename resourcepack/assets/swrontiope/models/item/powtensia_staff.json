@@ -2,6 +2,6 @@
 	"parent": "swrontiope:item/staff_base",
 	"textures": {
 		"base": "swrontiope:item/staff_base",
-		"head": "swrontiope:item/powtensia_staff_orb"
+		"head": "swrontiope:item/powtensia_core"
 	}
 }
