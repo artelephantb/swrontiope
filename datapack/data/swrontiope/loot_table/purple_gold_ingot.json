@@ -12,6 +12,7 @@
 							"components": {
 								"item_name": {
 									"text": "Purple Gold Ingot",
+									"color": "#e21c86",
 									"italic": false
 								},
 								"lore": [

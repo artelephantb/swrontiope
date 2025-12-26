@@ -12,6 +12,7 @@
 							"components": {
 								"item_name": {
 									"text": "Powtensia Staff",
+									"color": "#e21c86",
 									"italic": false
 								},
 								"lore": [
@@ -35,7 +36,6 @@
 									}
 								],
 								"item_model": "swrontiope:powtensia_staff",
-								"rarity": "rare",
 								
 								"max_stack_size": 1,
 

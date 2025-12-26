@@ -1,15 +1,11 @@
 {
 	"pack": {
-		"min_format": 69.0,
-		"max_format": 69.0,
+		"min_format": 75,
+		"max_format": 75,
 		"description": [
 			{
-				"text": "Adds new staffs to ",
-				"color": "gold"
-			},
-			{
-				"text": "Minecraft",
-				"bold": true
+				"text": "Powerful and unique staffs.",
+				"color": "#e21c86"
 			}
 		]
 	}

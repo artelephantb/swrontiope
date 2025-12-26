@@ -12,6 +12,7 @@
 							"components": {
 								"item_name": {
 									"text": "Slot Filler",
+									"color": "#e21c86",
 									"italic": false
 								},
 								"lore": [
@@ -22,7 +23,6 @@
 									}
 								],
 								"item_model": "swrontiope:filler",
-								"rarity": "epic",
 								
 								"max_stack_size": 1,
 
