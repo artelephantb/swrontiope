@@ -1,1 +1,0 @@
-execute if items entity @s weapon.offhand beacon run function destroy:abilities/destroyer
