@@ -5,4 +5,6 @@ fill ~-17 ~-1 ~-17 ~16 ~-1 ~16 podzol
 
 place template swrontiope:stadium ~-16 ~ ~-16
 
+execute positioned ~ ~1 ~ run function swrontiope:stadium/podium/create
+
 kill @s

@@ -23,3 +23,6 @@ execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity 
 
 #### Stadium ####
 execute as @e[tag=swrontiope.city.creator] at @s run function swrontiope:stadium/create/tick
+
+#### Podium ####
+execute as @e[tag=swrontiope.podium] at @s run function swrontiope:stadium/podium/tick
