@@ -26,6 +26,7 @@
 		"components": {
 			"item_name": {
 				"text": "Swrontiope Guide Book",
+				"color": "#e21c86",
 				"italic": false
 			},
 			"lore": [

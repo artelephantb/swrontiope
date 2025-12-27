@@ -6,6 +6,7 @@
 		"components": {
 			"item_name": {
 				"text": "Gold Dust",
+				"color": "#e21c86",
 				"italic": false
 			},
 			"lore": [

@@ -23,6 +23,7 @@
 		"components": {
 			"item_name": {
 				"text": "Workbench",
+				"color": "#e21c86",
 				"italic": false
 			},
 			"lore": [
