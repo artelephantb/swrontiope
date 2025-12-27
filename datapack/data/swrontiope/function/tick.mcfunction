@@ -20,3 +20,6 @@ function #swrontiope:powtensia/projectiles/tick
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity @a[distance=..100] run kill @s
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity @s[tag=projectile.ghost.block] unless block ~ ~ ~ air run function #swrontiope:powtensia/projectiles/block
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity @s[tag=projectile.ghost.entity] if entity @n[type=!item_display, distance=..2] run function #swrontiope:powtensia/projectiles/entity
+
+#### Stadium ####
+execute as @e[tag=swrontiope.city.creator] at @s run function swrontiope:stadium/create/tick
