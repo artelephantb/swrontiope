@@ -22,7 +22,7 @@ execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity 
 execute as @e[type=item_display, tag=swrontiope.projectile] at @s unless entity @s[tag=projectile.ghost.entity] if entity @n[type=!item_display, distance=..2] run function #swrontiope:powtensia/projectiles/entity
 
 #### Stadium ####
-execute as @e[tag=swrontiope.city.creator] at @s run function swrontiope:stadium/create/tick
+execute as @e[tag=swrontiope.stadium.center] at @s run function swrontiope:stadium/create
 
 #### Podium ####
 execute as @e[tag=swrontiope.podium] at @s run function swrontiope:stadium/podium/tick
