@@ -1,4 +1,4 @@
-playsound swrontiope:glow ui @a ~ ~ ~ 0.5
+function swrontiope:stadium/podium/play_sound
 
 title @a[distance=..5] actionbar {'text': 'Right-click to pickup', 'color': 'aqua'}
 

@@ -17,5 +17,8 @@ scoreboard objectives add swrontiope.block.workbench.change dummy
 scoreboard objectives add swrontiope.settings dummy
 scoreboard players set default_abilities swrontiope.settings 0
 
+# Create sound cooldown
+scoreboard objectives add swrontiope.sounds.cooldown dummy
+
 # Show load info
 schedule function swrontiope:load_info 5t
