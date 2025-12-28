@@ -31,6 +31,12 @@ Craft many things with a workbench, including the powtensia staff! You are able 
 
 <img src='images/recipes/workbench.png' width='424px'>
 
+# Structures
+## Stadium
+The *Stadium* is a structure that can only be found in *Savannas*, *Windswept Savannas*, and the *Badlands*. The stadium contains a single *Powtensia Staff* on a pedestal.
+
+<img src='images/photographs/stadium.png' width='550px'>
+
 # Built-in Abilites
 - **(Apple)**: Gives a golden apple to the player.
 - **(Bone Meal)**: A projectile that heals a entity or summons a cow and a sheep on top of a block.
