@@ -5,6 +5,32 @@
 # About
 **Swrontiope** is a *datapack* for *Minecraft Java Edition*; This datapack advances combat mechanics with new items, unique interactions, and useful guidance. Swrontiope comes with a powerful weapon, the **Powtensia Staff**; The Powtensia staff can be held in your *mainhand* and a usable item in your *offhand* can cause unique powers based on the held item!
 
+# Items
+## Guide Book
+The *Guide Book* contains information of recipies and abilities included in this pack; This item is not needed if you're using this documentation. The guide book can be crafted inside a crafting table in this arrangement:
+
+<img src='images/recipes/guide_book.png' width='424px'>
+
+## Gold Dust
+*Gold Dust* is a powdery substance of gold, mainly used to create purple gold ingots. Gold dust can be grinded in a *stone cutter*, having a ratio of 2 pieces of gold dust per gold ingot.
+
+<img src='images/recipes/gold_dust.png' width='280px'>
+
+## Powtensia Staff
+The *Powtensia Staff* helps with many mundane tasks, like walking or hiking up mountains. The staff can be used with many items for a wide variety of abilities and actions; The Powtensia Staff is a core part of this datapack, giving the player new powers based on the items they obtained. A ability can be activated by pressing or holding the right mouse button with the powtensia staff firmly gripped in your mainhand. To craft this, you will need 6 purple gold ingots, and a nether star put together in a workbench.
+
+<img src='images/recipes/powtensia_staff.png' width='424px'>
+
+## Purple Gold Ingot
+A shiny purple ingot of gold combined with 4 iron nuggets and amethyst shards; and a single gold dust combined all inside a workbench! This gold is used as a handle for the powtensia staff.
+
+<img src='images/recipes/purple_gold_ingot.png' width='424px'>
+
+## Workbench
+Craft many things with a workbench, including the powtensia staff! You are able to craft this by using 2 blocks of blackstone, a piece of blue dye, an iron nugget, and 5 blocks of any planks. All inside a crafting table!
+
+<img src='images/recipes/workbench.png' width='424px'>
+
 # Built-in Abilites
 - **(Apple)**: Gives a golden apple to the player.
 - **(Bone Meal)**: A projectile that heals a entity or summons a cow and a sheep on top of a block.
