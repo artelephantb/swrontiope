@@ -2,11 +2,9 @@
 	"pack": {
 		"min_format": 94,
 		"max_format": 94,
-		"description": [
-			{
-				"text": "Powerful and unique staffs.",
-				"color": "#e21c86"
-			}
-		]
+		"description": {
+			"text": "Powerful and unique staffs.",
+			"color": "#e21c86"
+		}
 	}
 }
